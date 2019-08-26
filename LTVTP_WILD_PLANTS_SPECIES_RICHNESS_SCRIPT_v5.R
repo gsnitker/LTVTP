@@ -1,8 +1,8 @@
 ## LTVTP Wild Plant Species Richness Script  v.5
-## Grant Snitker 
-## School of Human Evolution and Social Change 
-## Arizona State University
-## Date: 05/12/2016
+## Developed by Grant Snitker; grant.snitker@uga.edu
+## Dept of Crop and Soil Sciences
+## University of Georgia
+## Date: 08/26/2019
 
 ### Note 1: Replace data inputs (in CAPITAL LETTERS) with data for specified analytical region
 ### Note 2: To use this script, the user must download MaxEnt, a java based program, from https://www.cs.princeton.edu/~schapire/maxent/.  Once downloaded, place the executable java file in the working directory for this script. 

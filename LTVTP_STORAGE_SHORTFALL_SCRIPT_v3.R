@@ -1,8 +1,8 @@
 ## LTVTP Storage Shortfall Script  v.3
-## Grant Snitker 
-## School of Human Evolution and Social Change 
-## Arizona State University
-## Date: 05/12/2016
+## Developed by Grant Snitker; grant.snitker@uga.edu
+## Dept of Crop and Soil Sciences
+## University of Georgia
+## Date: 08/26/2019
 
 ### Note: Replace data inputs (in CAPITAL LETTERS) with data for specified analytical region
 
@@ -70,7 +70,7 @@ dummy.raster[] = NA
 prcp.mean.storage = addLayer(dummy.raster, prcp.mean.add, prcp.mean)
 prcp.sd.storage = addLayer(dummy.raster, prcp.sd.add, prcp.sd)
 
-######## FUNCTION 1 #######################
+######## FUNCTION 2 #######################
 ###########################################
 ######## THRESHOLD BINARY FUNCTION ########
 theshold.binary.function = function(year.range.buffer){
@@ -101,7 +101,7 @@ below.prcp.threshold.brick = addLayer(dummy.raster, below.prcp.threshold.brick)
 #####################################
 
 
-######## FUNCTION 2 #######################
+######## FUNCTION 3 #######################
 ###########################################
 ######## STORAGE SHORTFALL FUNCTION ########
 ### New Parameters
